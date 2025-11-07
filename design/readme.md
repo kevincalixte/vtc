@@ -1,5 +1,30 @@
 # FOAD DWWM CEPPIC 2025 du 07/11/2025
+// components/Card.jsx
+function Card({ children }) {
+  return <div className="card">{children}</div>;
+}
 
+// components/Button.jsx
+function Button({ children, onClick }) {
+  return <button className="btn" onClick={onClick}>{children}</button>;
+}
+
+// components/Price.jsx
+function Price({ amount, currency = "€" }) {
+  return <p className="price">{amount}{currency}/jour</p>;
+}
+
+// components/CarCard.jsx
+function CarCard({ car }) {
+  return (
+    <Card>
+      <h2>{car.title}</h2>
+      <p>{car.description}</p>
+      <Price amount={car.price} />
+      <Button onClick={() => alert('Réservé!')}>Réserver</Button>
+    </Card>
+  );
+}
 ## Intégration Maquette HTML/CSS/Javascript
 
 Votre mission consiste à intégrer une page web ainsi que tous ces éléments.

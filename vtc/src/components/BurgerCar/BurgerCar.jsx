@@ -2,26 +2,26 @@ import React from 'react'
 import { CiMenuBurger } from 'react-icons/ci';
 
 const style = {
-    styleBase: {
+    styleButton: {
+        backgroundColor: 'transparent',
         width: '2.7rem',
+        height: '1.9rem',
         border: '1px solid white',
+        color: 'white',
         fontSize: '1.5rem',
         borderRadius: '.3rem',
-        // color: 'white',
         marginLeft: 'auto',
-        textAlign: 'center',
-    },
-    styleButton: {
-        // backgroundColor: 'transparent',
+        padding: '0.6rem',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
     }
 }
 function BurgerCar() {
     return (
-        <div style={style.styleBase}>
-            <button style={style.Button}>
-                <CiMenuBurger></CiMenuBurger>
-            </button>
-        </div>
+        <button style={style.styleButton}>
+            <CiMenuBurger />
+        </button>
     )
 }
 

@@ -5,8 +5,8 @@ const style = {
     styleBase: {
         backgroundImage: `url(${backgroundImg})`,
         backgroundSize: 'cover',
-        backgroundPosition: 'left',
-        backgroundRepeat: 'no-repeat',
+        // backgroundPosition: 'left',
+        // backgroundRepeat: 'no-repeat',
         minHeight: '70vh',
         padding: '.5rem .8rem 0 0',
     }
