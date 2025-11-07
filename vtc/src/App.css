@@ -1,0 +1,94 @@
+/* MOBILE FIRST */
+
+.HomeCar {
+    background-image: url('./assets/img/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.FormCar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.FormCarForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+    .FormCarForm {
+        flex-direction: row;
+    }
+
+    .FormCar {
+        position: relative;
+        top: 20rem;
+    }
+
+    .ButtonCar {
+        margin: 5rem 2rem 0 0;
+    }
+
+    .SortCar {
+        margin: 5rem 2rem 0 0;
+    }
+
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1024px) {
+    .FormCar {
+        flex-direction: row;
+        padding: 0 !important;
+        position: unset;
+        margin: 15rem !important;
+    }
+
+    .FormCarForm {
+        padding: .5rem;
+    }
+
+    .FormCarForm select,
+    .FormCarForm input {
+        width: 30% !important;
+
+    }
+
+    .FormCarButton {
+        margin: 0 !important;
+        width: 35% !important;
+        align-self: stretch;
+    }
+
+    .HomeCar {
+        /* background-size: contain; */
+        background-position: center;
+        min-height: 45vh !important;
+    }
+
+    .SortCar{
+        margin: 0 !important;
+    }
+    
+    .ButtonCar{
+        margin: 0 !important
+    }
+
+    main{
+        margin: 0 15rem !important
+    }
+
+    .SlideCar{
+        width: 40% !important;
+
+    }
+
+
+
+}

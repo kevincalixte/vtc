@@ -6,7 +6,7 @@ const style = {
         backgroundImage: `url(${vehiculeImg})`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
-        // backgroundPosition: 'center',
+        backgroundPosition: 'center',
         height: '12rem',    
         width: '100%',     
     }
@@ -14,8 +14,8 @@ const style = {
 }
 function SlideCar() {
     return (
-        <div style={style.styleImg}>
-            {/* Image en background */}
+        <div className='SlideCar' style={style.styleImg}>
+            {/* BACKGROUND IMAGE */}
         </div>
     )
 }

@@ -12,7 +12,7 @@ const style = {
 }
 function LineResults() {
     return (
-        <div style={style.styleBase}>
+        <div className='LineResults' style={style.styleBase}>
             <ResultsCar></ResultsCar>
             <SortCar></SortCar>
         </div>

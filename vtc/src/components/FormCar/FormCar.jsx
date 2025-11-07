@@ -1,16 +1,15 @@
 import React from 'react'
-import './FormCar.css'
 
 const style = {
     styleBase: {
         backgroundColor: 'rgba(255, 255, 255, 0.5)',
         maxWidth: '95%',
-        height: '12rem',
-        margin: '10rem 0 auto auto',
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-        justifyContent: 'space-between',
+        padding: '.5rem 0 0 0',
+        margin: '10rem 0 0 2rem'
+    },
+    styleForm: {
+        width: '98%',
+        gap: '0.5rem',
     },
     styleSelect: {
         width: '98%',
@@ -18,7 +17,6 @@ const style = {
         padding: '0.5rem',
         borderRadius: '.2rem',
         border: 'none',
-        marginTop: '.5rem'
     },
     styleOption1: {
 
@@ -36,26 +34,36 @@ const style = {
         color: '#FFFFFF',
         backgroundColor: 'rgba(87, 177, 87, 0.8)',
         border: 'none',
+        marginTop: '0.5rem',
     }
 }
 function FormCar() {
     return (
-        <div style={style.styleBase}>
-            <select style={style.styleSelect}>
-                <option style={style.styleOption1}>Adresse de départ</option>
-            </select>
-            <input
-                type="date"
-                style={style.styleInput}
-                placeholder="Sélectionnez une date"
-            />
-            <input
-                type="date"
-                style={style.styleInput}
-                placeholder="Sélectionnez une date"
-            />
-            <button className='buttonValid' style={style.styleButton}>Valider ma recherche</button>
-        </div>
+        <>
+
+            <div className='FormCar' style={style.styleBase}>
+
+                <div className='FormCarForm' style={style.styleForm}>
+
+                    <select style={style.styleSelect}>
+                        <option style={style.styleOption1}>Adresse de départ</option>
+                    </select>
+                    <input
+                        type="date"
+                        style={style.styleInput}
+                        placeholder="Sélectionnez une date"
+                    />
+                    <input
+                        type="date"
+                        style={style.styleInput}
+                        placeholder="Sélectionnez une date"
+                    />
+                </div>
+                <button className='FormCarButton' style={style.styleButton}>Valider ma recherche</button>
+
+            </div>
+
+        </>
     )
 }
 

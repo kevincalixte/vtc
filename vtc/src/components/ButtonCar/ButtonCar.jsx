@@ -11,7 +11,7 @@ const style = {
 }
 function ButtonCar() {
   return (
-    <button style={style.styleButton}>Réserver et Payer</button>
+    <button className='ButtonCar' style={style.styleButton}>Réserver et Payer</button>
   )
 }
 

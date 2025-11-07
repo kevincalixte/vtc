@@ -11,7 +11,7 @@ const style = {
 }
 function SortCar() {
     return (
-        <select style={style.styleSelect}>
+        <select className='SortCar' style={style.styleSelect}>
             <option value="">Prix croissant</option>
         </select>
     )

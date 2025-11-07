@@ -3,8 +3,8 @@ import backgroundImg from '../../assets/img/background1.jpg'
 
 const style = {
     styleBase: {
-        backgroundImage: `url(${backgroundImg})`,
-        backgroundSize: 'cover',
+        // backgroundImage: `url(${backgroundImg})`,
+        // backgroundSize: 'cover',
         // backgroundPosition: 'left',
         // backgroundRepeat: 'no-repeat',
         minHeight: '70vh',
@@ -13,7 +13,7 @@ const style = {
 }
 function HomeCar({ children }) {
     return (
-        <div style={style.styleBase}>
+        <div className="HomeCar" style={style.styleBase}>
             {children}
         </div>
     )

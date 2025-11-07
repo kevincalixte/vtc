@@ -11,7 +11,7 @@ const style = {
 }
 function ResultsCar() {
     return (
-        <div>
+        <div className='ResultsCar'>
             <p style={style.styleP}>7 <span style={style.styleSpan}>résultats</span> </p>
         </div>
     )
