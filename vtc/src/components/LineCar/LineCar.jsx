@@ -15,10 +15,9 @@ const style = {
         gap: '2rem',
     },
     styleLeft: {
-        width: '70vw',
+        width: '50vw',  
         display: 'flex',
         alignItems: 'center',
-        marginLeft: '1rem',
     },
     styleRight: {
         display: 'flex',

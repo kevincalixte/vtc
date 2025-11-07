@@ -20,6 +20,10 @@
     justify-content: space-around;
 }
 
+main {
+    margin: 0 2rem;
+}
+
 /* TABLET */
 @media (min-width: 768px) {
     .FormCarForm {
@@ -72,21 +76,32 @@
         min-height: 45vh !important;
     }
 
-    .SortCar{
+    .SortCar {
         margin: 0 !important;
     }
-    
-    .ButtonCar{
+
+    .ButtonCar {
         margin: 0 !important
     }
 
-    main{
-        margin: 0 15rem !important
+    main {
+        /* margin: 0 8rem !important; */
+        width: 65%;
+        margin: 0 auto;
     }
 
-    .SlideCar{
+    .SlideCar {
         width: 40% !important;
 
+    }
+
+    .LineCarText {
+        display: flex !important;
+    }
+
+    .LineCarImg {
+        /* width: 35vw!important; */
+        /* margin: 0 !important; */
     }
 
 

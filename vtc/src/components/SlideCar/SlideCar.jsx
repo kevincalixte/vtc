@@ -7,8 +7,9 @@ const style = {
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        height: '12rem',    
-        width: '100%',     
+        height: '12rem',
+        // minWidth: '20rem',  
+        flex: '1',
     }
 
 }
