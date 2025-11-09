@@ -34,7 +34,7 @@ const style = {
         color: '#FFFFFF',
         backgroundColor: 'rgba(87, 177, 87, 0.8)',
         border: 'none',
-        marginTop: '0.5rem',
+        marginTop: '0.5rem'
     }
 }
 function FormCar() {
@@ -49,11 +49,13 @@ function FormCar() {
                         <option style={style.styleOption1}>Adresse de départ</option>
                     </select>
                     <input
+                        id='locationStart'
                         type="date"
                         style={style.styleInput}
                         placeholder="Sélectionnez une date"
                     />
                     <input
+                        id='locationEnd'
                         type="date"
                         style={style.styleInput}
                         placeholder="Sélectionnez une date"

@@ -4,13 +4,16 @@ import TitleCar from './components/TitleCar/TitleCar.jsx'
 import FormCar from './components/FormCar/FormCar.jsx'
 import LineCar from './components/LineCar/LineCar.jsx'
 import LineResults from './components/LineResults/LineResults.jsx'
+import ContactCar from './components/ContactCar/ContactCar.jsx'
 import './App.css'
+import MenuCar from './components/MenuCar/MenuCar.jsx'
 
 function App() {
 
   return (
     <>
       <header>
+           {/* <MenuCar></MenuCar> */}
         <HomeCar>
           <BurgerCar></BurgerCar>
           <TitleCar></TitleCar>
@@ -25,7 +28,8 @@ function App() {
       </main>
 
       <footer>
-
+      <ContactCar></ContactCar>
+ 
       </footer>
     </>
   )

@@ -10,7 +10,7 @@ const style = {
 }
 function RightButtonCar() {
   return (
-    <button style={style.styleButton}><FaCaretRight></FaCaretRight></button>
+    <button className="RightButtonCar" style={style.styleButton}><FaCaretRight></FaCaretRight></button>
   )
 }
 

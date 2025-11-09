@@ -8,7 +8,6 @@ const style = {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         height: '12rem',
-        // minWidth: '20rem',  
         flex: '1',
     }
 

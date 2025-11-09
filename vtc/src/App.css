@@ -1,3 +1,20 @@
+/* GESTION HOVER */
+.LeftButtonCar:hover,
+.RightButtonCar:hover {
+    transform: scale(1.5);
+    transition: ease 100ms
+}
+
+.ButtonCar:hover {
+    transform: scale(1.1);
+    transition: ease 100ms
+}
+
+.FormCarButton:hover {
+    background-color: rgba(70, 150, 70, 1) !important;
+}
+
+
 /* MOBILE FIRST */
 
 .HomeCar {
@@ -10,7 +27,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: space-between; */
 }
 
 .FormCarForm {
@@ -35,14 +51,13 @@ main {
         top: 20rem;
     }
 
-    .ButtonCar {
-        margin: 5rem 2rem 0 0;
-    }
-
     .SortCar {
         margin: 5rem 2rem 0 0;
     }
 
+    .LineCarTextAndButton {
+        margin: 0 2rem 0 auto
+    }
 }
 
 /* DESKTOP */
@@ -61,7 +76,6 @@ main {
     .FormCarForm select,
     .FormCarForm input {
         width: 30% !important;
-
     }
 
     .FormCarButton {
@@ -71,7 +85,6 @@ main {
     }
 
     .HomeCar {
-        /* background-size: contain; */
         background-position: center;
         min-height: 45vh !important;
     }
@@ -85,14 +98,8 @@ main {
     }
 
     main {
-        /* margin: 0 8rem !important; */
         width: 65%;
         margin: 0 auto;
-    }
-
-    .SlideCar {
-        width: 40% !important;
-
     }
 
     .LineCarText {
@@ -100,10 +107,25 @@ main {
     }
 
     .LineCarImg {
-        /* width: 35vw!important; */
-        /* margin: 0 !important; */
+        width: 35vw !important;
     }
 
+    .LineCarTextAndButton {
+        flex-direction: column;
+        margin-left: 2rem;
+        align-items: flex-start !important;
+        justify-content: space-evenly !important;
+    }
 
+    .LineCarButton {
+        margin: 0 !important;
+    }
 
+    .LineCarImg {
+        width: 40% !important;
+    }
+
+    .ContactCar {
+        display: flex !important;
+    }
 }
