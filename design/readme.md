@@ -25,6 +25,21 @@ function CarCard({ car }) {
     </Card>
   );
 }
+
+
+-------------------
+
+// Avec &&
+{isMenuOpen && <MenuCar />}
+
+// Équivalent avec if/else (plus long)
+{isMenuOpen ? <MenuCar /> : null}
+
+// Équivalent avec if classique (impossible dans le JSX)
+if (isMenuOpen) {
+    return <MenuCar />
+}
+
 ## Intégration Maquette HTML/CSS/Javascript
 
 Votre mission consiste à intégrer une page web ainsi que tous ces éléments.

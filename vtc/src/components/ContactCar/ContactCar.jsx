@@ -24,7 +24,7 @@ function ContactCar() {
             </div>
             <div style={style.styleInfos}>
                 <ul>
-                    <li>Notre agence de <span>Paris</span></li>
+                    <li>Notre agence de <span style={{fontWeight:'bold'}}>Paris</span></li>
                     <li>300 Boulevard de Vaugirard, 75015, Paris</li>
                     <li>Ouvert 7j/7j de 09h à 13h et de 14h à 20h</li>
                     <li>01 49 78 21 33</li>

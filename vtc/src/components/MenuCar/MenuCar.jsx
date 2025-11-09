@@ -6,7 +6,7 @@ const style = {
         color: '#9299A1',
         width: '100vw',
         heigth: '20rem',
-        padding: '1rem', 
+        padding: '1rem',
         position: 'absolute',
         marginTop: '1rem',
     },
@@ -17,16 +17,20 @@ const style = {
         fontSize: '.9rem',
     }
 }
+
+const menuItems = ["Louer une voiture", "Louer un utilitaire", "Réserver un chauffeur", "Découvrez nos agences", "Mon Compte", "Contact"]
+
 function MenuCar() {
     return (
         <div className='MenuCar' style={style.styleBase}>
             <ul style={style.styleMenuCarList}>
-                <li><a href="">Louer une voiture</a></li>
-                <li><a href="">Louer un utilitaire</a></li>
-                <li><a href="">Réserver un chauffeur</a></li>
-                <li><a href="">Découvrez nos agences</a></li>
-                <li><a href="">Mon compte</a></li>
-                <li><a href="">Contact</a></li>
+                {
+                    menuItems.map((item, index) => (
+                        <li key={index}>
+                            <a href="">{item}</a>
+                        </li>
+                    ))
+                }
             </ul>
         </div>
     )

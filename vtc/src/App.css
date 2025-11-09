@@ -14,14 +14,17 @@
     background-color: rgba(70, 150, 70, 1) !important;
 }
 
-
+.ButtonCar:hover {
+    background-color: white !important;
+    color: #3E8F3E !important;
+}
 /* MOBILE FIRST */
 
-.HomeCar {
+/* .HomeCar {
     background-image: url('./assets/img/background1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .FormCar {
     display: flex;
