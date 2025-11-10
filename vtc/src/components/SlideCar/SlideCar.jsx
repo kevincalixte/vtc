@@ -1,18 +1,17 @@
 import React from 'react'
-import vehiculeImg from '../../assets/img/vehicule1.png'
+import carImg from '../../assets/img/vehicule1.png'
 
 const style = {
     styleImg: {
-        backgroundImage: `url(${vehiculeImg})`,
+        backgroundImage: `url(${carImg})`,
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
         height: '12rem',
         flex: '1',
     }
-
 }
-function SlideCar() {
+function SlideCar({carImg}) {
     return (
         <div className='SlideCar' style={style.styleImg}>
             {/* BACKGROUND IMAGE */}

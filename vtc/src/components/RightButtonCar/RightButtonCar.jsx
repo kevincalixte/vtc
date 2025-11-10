@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { use, useEffect } from 'react'
 import { FaCaretRight } from "react-icons/fa";
 
 const style = {
-    styleButton: {
-        border: 'none',
-        backgroundColor: 'transparent',
-        fontSize: '2rem',
-    }
+  styleButton: {
+    border: 'none',
+    backgroundColor: 'transparent',
+    fontSize: '2rem',
+  }
 }
+
 function RightButtonCar() {
   return (
     <button className="RightButtonCar" style={style.styleButton}><FaCaretRight></FaCaretRight></button>
