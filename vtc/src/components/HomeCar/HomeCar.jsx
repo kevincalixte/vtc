@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import background1 from '../../../public/assets/img/background1.jpg'
-import background2 from '../../../public/assets/img/background2.jpg'
-import background3 from '../../../public/assets/img/background3.jpg'
 
-const images = [background1, background2, background3]
+const images = [
+    '/vtc/assets/img/background1.jpg',
+    '/vtc/assets/img/background2.jpg',
+    '/vtc/assets/img/background3.jpg'
+]
 
 function HomeCar({ children }) {
 
