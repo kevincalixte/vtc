@@ -1,0 +1,86 @@
+[
+  {
+    "id": 0,
+    "brand": "Peugeot 208",
+    "description": "Diesel, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "999 €",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule1-gauche.png",
+      "right": "/vtc/assets/img/vehicule1-droite.png",
+      "center": "/vtc/assets/img/vehicule1.png"
+    }
+  },
+  {
+    "id": 1,
+    "brand": "Ford Focus",
+    "description": "Diesel, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "999 €",
+    "agence": "Indisponible",
+    "images": {
+      "left": "/vtc/assets/img/vehicule2-gauche.png",
+      "right": "/vtc/assets/img/vehicule2-droite.png",
+      "center": "/vtc/assets/img/vehicule2.png"
+    }
+  },
+  {
+    "id": 2,
+    "brand": "Audi A1",
+    "description": "Diesel, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "1100 €",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule3-gauche.png",
+      "right": "/vtc/assets/img/vehicule3-droite.png",
+      "center": "/vtc/assets/img/vehicule3.png"
+    }
+  },
+  {
+    "id": 3,
+    "brand": "Opel Mokka",
+    "description": "Diesel, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "1150 €",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule4-gauche.png",
+      "right": "/vtc/assets/img/vehicule4-droite.png",
+      "center": "/vtc/assets/img/vehicule4.png"
+    }
+  },
+  {
+    "id": 4,
+    "brand": "Auti TT",
+    "description": "Diesel, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "1350 €",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule5-gauche.png",
+      "right": "/vtc/assets/img/vehicule5-droite.png",
+      "center": "/vtc/assets/img/vehicule5.png"
+    }
+  },
+  {
+    "id": 5,
+    "brand": "Citroen Ami Electrique",
+    "description": "Electrique, 2 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "499€",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule6-gauche.png",
+      "right": "/vtc/assets/img/vehicule6-droite.png",
+      "center": "/vtc/assets/img/vehicule6.png"
+    }
+  },
+  {
+    "id": 6,
+    "brand": "Renault Twingo Electrique",
+    "description": "Electrique, 5 portes, Forfait 1000 km (0,5/km supplémentaire).",
+    "price": "1200 €",
+    "agence": "Agence de Paris",
+    "images": {
+      "left": "/vtc/assets/img/vehicule7-gauche.png",
+      "right": "/vtc/assets/img/vehicule7-droite.png",
+      "center": "/vtc/assets/img/vehicule7.png"
+    }
+  }
+]
