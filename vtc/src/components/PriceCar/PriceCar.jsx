@@ -1,8 +1,8 @@
 import React from 'react'
 
-function PriceCar() {
+function PriceCar({price}) {
   return (
-    <p>999 € - <span>Agence de Paris</span></p>
+    <p>{price}</p>
   )
 }
 

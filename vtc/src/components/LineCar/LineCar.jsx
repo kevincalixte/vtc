@@ -52,9 +52,9 @@ function LineCar({value}) {
 
             <div className='LineCarTextAndButton' style={style.styleTextAndButton}>
                 <div className='LineCarText' style={style.styleText}>
-                    <BrandCar></BrandCar>
-                    <DescriptionCar></DescriptionCar>
-                    <PriceCar></PriceCar>
+                    <BrandCar brand={value.brand}></BrandCar>
+                    <DescriptionCar description={value.description}></DescriptionCar>
+                    <PriceCar price={value.price}></PriceCar>
                 </div>
                 <div className='LineCarButton' style={style.styleRight}>
                     <ButtonCar></ButtonCar>

@@ -18,6 +18,7 @@
     background-color: white !important;
     color: #3E8F3E !important;
 }
+
 /* MOBILE FIRST */
 
 /* .HomeCar {
@@ -50,8 +51,8 @@ main {
     }
 
     .FormCar {
-        position: relative;
-        top: 20rem;
+        position: relative !important;
+        top: 20rem !important;
     }
 
     .SortCar {

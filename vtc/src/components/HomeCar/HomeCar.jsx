@@ -31,6 +31,7 @@ function HomeCar({ children }) {
             backgroundImage: `url(${images[currentIndex]})`, // Image change selon currentIndex
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
             minHeight: '70vh',
             padding: '.5rem .8rem 0 0',
             transition : 'background-image 1s ease-in-out',

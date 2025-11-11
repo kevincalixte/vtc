@@ -1,8 +1,8 @@
 import React from 'react'
 
-function BrandCar() {
+function BrandCar({brand}) {
   return (
-    <h2>Peugeot 208</h2>
+    <h2>{brand}</h2>
   )
 }
 
