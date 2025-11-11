@@ -1,6 +1,6 @@
 import React, { use, useEffect } from 'react'
 import { FaCaretRight } from "react-icons/fa";
-import cars from "../../assets/data/cars.json"
+import cars from "../../../public/assets/data/cars.json"
 
 const style = {
   styleButton: {

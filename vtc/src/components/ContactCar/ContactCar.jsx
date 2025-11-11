@@ -1,5 +1,5 @@
 import React from 'react'
-import agenceImg from '../../assets/img/agence.jpg'
+import agenceImg from '../../../public/assets/img/agence.jpg'
 
 const style = {
     styleBase: {

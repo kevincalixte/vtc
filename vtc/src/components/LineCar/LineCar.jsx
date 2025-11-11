@@ -40,12 +40,13 @@ const style = {
     }
 }
 
-function LineCar() {
+function LineCar({value}) {
+   
     return (
         <div className='LineCar' style={style.styleBase}>
             <div className='LineCarImg' style={style.styleLeft}>
                 <LeftButtonCar></LeftButtonCar>
-                <SlideCar></SlideCar>
+                <SlideCar images={value.images}></SlideCar>
                 <RightButtonCar></RightButtonCar>
             </div>
 

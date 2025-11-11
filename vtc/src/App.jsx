@@ -6,6 +6,8 @@ import LineCar from './components/LineCar/LineCar.jsx'
 import LineResults from './components/LineResults/LineResults.jsx'
 import ContactCar from './components/ContactCar/ContactCar.jsx'
 import './App.css'
+import cars from "../public/assets/data/cars.json"
+import { CiGlass } from 'react-icons/ci'
 
 function App() {
 
@@ -22,7 +24,9 @@ function App() {
 
       <main>
         <LineResults></LineResults>
-        <LineCar></LineCar>
+        {cars.map((value) => (
+          <LineCar key={value.id} value={value}></LineCar>
+        ))}
       </main>
 
       <footer>

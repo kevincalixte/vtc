@@ -6,9 +6,9 @@
     "price": "999 €",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule1-gauche.png",
-      "right": "../src/assets/img/vehicule1-droite.png",
-      "center": "../src/assets/img/vehicule1.png"
+      "left": "/vtc/assets/img/vehicule1-gauche.png",
+      "right": "/vtc/assets/img/vehicule1-droite.png",
+      "center": "/vtc/assets/img/vehicule1.png"
     }
   },
   {
@@ -18,9 +18,9 @@
     "price": "999 €",
     "agence": "Indisponible",
     "images": {
-      "left": "../src/assets/img/vehicul2-gauche.png",
-      "right": "../src/assets/img/vehicule2-droite.png",
-      "center": "../src/assets/img/vehicule2.png"
+      "left": "/vtc/assets/img/vehicule2-gauche.png",
+      "right": "/vtc/assets/img/vehicule2-droite.png",
+      "center": "/vtc/assets/img/vehicule2.png"
     }
   },
   {
@@ -30,9 +30,9 @@
     "price": "1100 €",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule3-gauche.png",
-      "right": "../src/assets/img/vehicule3-droite.png",
-      "center": "../src/assets/img/vehicule3.png"
+      "left": "/vtc/assets/img/vehicule3-gauche.png",
+      "right": "/vtc/assets/img/vehicule3-droite.png",
+      "center": "/vtc/assets/img/vehicule3.png"
     }
   },
   {
@@ -42,9 +42,9 @@
     "price": "1150 €",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule4-gauche.png",
-      "right": "../src/assets/img/vehicule4-droite.png",
-      "center": "../src/assets/img/vehicule4.png"
+      "left": "/vtc/assets/img/vehicule4-gauche.png",
+      "right": "/vtc/assets/img/vehicule4-droite.png",
+      "center": "/vtc/assets/img/vehicule4.png"
     }
   },
   {
@@ -54,9 +54,9 @@
     "price": "1350 €",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule5-gauche.png",
-      "right": "../src/assets/img/vehicule5-droite.png",
-      "center": "../src/assets/img/vehicule5.png"
+      "left": "/vtc/assets/img/vehicule5-gauche.png",
+      "right": "/vtc/assets/img/vehicule5-droite.png",
+      "center": "/vtc/assets/img/vehicule5.png"
     }
   },
   {
@@ -66,9 +66,9 @@
     "price": "499€",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule6-gauche.png",
-      "right": "../src/assets/img/vehicule6-droite.png",
-      "center": "../src/assets/img/vehicule6.png"
+      "left": "/vtc/assets/img/vehicule6-gauche.png",
+      "right": "/vtc/assets/img/vehicule6-droite.png",
+      "center": "/vtc/assets/img/vehicule6.png"
     }
   },
   {
@@ -78,9 +78,9 @@
     "price": "1200 €",
     "agence": "Agence de Paris",
     "images": {
-      "left": "../src/assets/img/vehicule7-gauche.png",
-      "right": "../src/assets/img/vehicule7-droite.png",
-      "center": "../src/assets/img/vehicule7.png"
+      "left": "/vtc/assets/img/vehicule7-gauche.png",
+      "right": "/vtc/assets/img/vehicule7-droite.png",
+      "center": "/vtc/assets/img/vehicule7.png"
     }
   }
 ]
